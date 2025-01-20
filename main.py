@@ -7,7 +7,8 @@ load_dotenv()
 apiKey = os.getenv("GEMINI_API_KEY")
 genai.configure(api_key=apiKey)
 
-print("/t/t/t/tConnected To AI Server/t/t/t/t")
+print("\n\t\t\t\tConnected To AI Server\t\t\t\t")
+print("\n")
 
 def chatWithBot(prompt):
     model = genai.GenerativeModel("gemini-pro")
